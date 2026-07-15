@@ -4,6 +4,8 @@ metadata:
   name: calci
   annotations:
     github.com/project-slug: rohitratannagar/calci
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=rhdh'
+    backstage.io/kubernetes-namespace: rhdh
 spec:
   type: other
   lifecycle: unknown
