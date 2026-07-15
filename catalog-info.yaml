@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: calci
+  annotations:
+    github.com/project-slug: rohitratannagar/calci
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Agent
